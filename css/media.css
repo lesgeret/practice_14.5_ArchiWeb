@@ -1,0 +1,171 @@
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+        scroll-behavior: smooth;
+    }
+}
+
+/* <1440 */
+
+@media screen and (max-width: 1440px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+/* 1300 */
+
+@media screen and (max-width: 1300px) {
+
+    .h1__proj {
+        text-align: center;
+    }
+
+    .proj__grid {
+        grid-template-columns: repeat(2, 344px);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 50px;
+        justify-content: space-evenly;
+    }
+
+    .h1__test {
+        margin-bottom: 45px;
+    }
+
+    .test__flex {
+        flex-direction: column;
+        max-width: fit-content;
+        margin: 0 auto 60px;
+    }
+
+    .footer_flex {
+        justify-content: space-evenly;
+    }
+
+    .footer_left {
+        justify-content: space-evenly;
+    }
+}
+
+/* 1000 */
+@media screen and (max-width: 1000px) {
+    .footer_flex {
+        padding-top: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_left {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* 800 */
+
+@media screen and (max-width: 800px) {
+    .header__main {
+        padding: 65px 0 65px 65px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .p__header {
+        font-size: 24px;
+
+    }
+
+    .menu__ul {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .proj__grid {
+        grid-template-columns: repeat(1, 344px);
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .test__flex-item {
+        margin-bottom: 15px;
+    }
+
+    .h2_test {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+}
+
+/* 600 */
+@media screen and (max-width: 600px) {
+    .footer_left {
+        max-width: fit-content;
+        flex-direction: column;
+    }
+
+    .footer_left_1 {
+        margin-bottom: 20px;
+    }
+
+    .test__flex-item {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* 520 */
+
+@media screen and (max-width: 520px) {
+    .about__flex-text {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .p__about {
+        font-size: 22px;
+    }
+}
+
+/* 350 */
+@media screen and (max-width: 320px) {
+.footer_map {
+    display: none;
+}
+
+.adress {
+    display: block;
+}
+.p__adress {
+    color: #FAFAFA;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 15px;
+}
+.btn__adress {
+    display: block;
+    border: none;
+    background-color: #2f2e2e;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 1px;
+    margin: 0 auto;
+}
+
+.adress__link {
+    color: #ffffff;
+}
+
+}
+
